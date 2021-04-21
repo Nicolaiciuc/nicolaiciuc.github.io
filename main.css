@@ -55,9 +55,28 @@ body {
     padding-bottom: 8px;
 }
 
-.content {
+[class*="content"] {
     margin-left: 330px;
     margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 10px;
+    background-color: #bae8e8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2c538d;
+    border-radius: 20px;
+}
+
+.content_folder {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #9fb5ca;
+}
+
+.item {
     margin-bottom: 30px;
     margin-top: 30px;
     padding-left: 50px;
@@ -111,13 +130,18 @@ body {
     padding-bottom: 8px;
 }
 
-.content .title {
+[class*="content"] .title {
     font-size: 50px;
     font-weight: bold;
     border-style: none none solid none;
     border-width: 2px;
     padding-bottom: 10px;
     user-select: text;
+}
+
+.content_folder>.title {
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
 ul {
