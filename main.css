@@ -16,7 +16,7 @@ body {
 
 .sidenav {
     height: 100%;
-    width: 300px;
+    width: 18%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -28,8 +28,8 @@ body {
 .header {
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-right: 30px;
-    margin-left: 330px;
+    margin-left: 20%;
+    margin-right: 5%;
     background-color: #e3f6f5;
     padding-left: 50px;
     padding-top: 10px;
@@ -57,8 +57,8 @@ body {
 }
 
 .content {
-    margin-left: 330px;
-    margin-right: 30px;
+    margin-left: 20%;
+    margin-right: 5%;
     margin-bottom: 30px;
     margin-top: 30px;
     padding-left: 50px;
@@ -75,8 +75,8 @@ body {
     padding-left: 0;
     padding-right: 0;
     background-color: #9fb5ca;
-    margin-left: 330px;
-    margin-right: 30px;
+    margin-left: 20%;
+    margin-right: 5%;
     margin-bottom: 30px;
     margin-top: 30px;
     padding-top: 10px;
@@ -93,10 +93,10 @@ body {
     padding-right: 100px;
     padding-top: 10px;
     background-color: #bae8e8;
-    border-style: solid;
     border-width: 2px;
     border-color: #2c538d;
     border-radius: 20px;
+    border-style: solid none solid none;
 }
 
 .sidenav .logo {
@@ -228,7 +228,7 @@ li.dropdown {
     user-select: text;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     .sidenav {
         height: 100%;
         width: 100%;
