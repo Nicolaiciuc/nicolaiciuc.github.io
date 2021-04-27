@@ -8,6 +8,24 @@
     background: darkcyan;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #e3f6f5;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #9fb5ca;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #2c538d;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
